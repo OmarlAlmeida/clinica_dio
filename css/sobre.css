@@ -1,0 +1,183 @@
+html, body {
+    margin: 0;
+}
+body {
+    /* background-color: #f1f1f1; */
+    display: flex;
+    justify-content: center;
+    /* background-image: radial-gradient(green, red); */
+}
+
+.wrapper {
+    width: 1500px;
+    display: flex;
+    margin: 0 auto;
+    /* background-color:bisque; */
+    /* border: double ;
+    border-radius: 5px; */
+        /* background-image: radial-gradient(green, red); */
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    /* border: dashed;
+    border-radius: 5px; */
+    /* background-color: brown; */
+    background-image: url(../imagens/logo_dog.png) ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25vh;
+    /* flex-grow: 0; */
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+border: 5px solid #1C6EA4;
+border-radius: 40px 40px 40px 40px;
+    
+}
+
+.video{
+    display: flex;
+    /* border: dashed;
+    border-radius: 5px; */
+    width: 1px;
+    background-color: black;
+    height: 30vh;
+    /* align-items: center; */
+    flex-grow: 0;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-self: center; */
+    
+   
+
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+/* .main .imagem{
+    height: 150px;
+    background-repeat: inherit;
+    
+} */
+
+.menu {
+    /* display: flex; */
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    /* flex-direction: column; */
+    width: 15%;
+    /* background-color: aqua; */
+    padding: 10px 20px 0px;
+    
+    
+    /* background-image: radial-gradient(green, red); */
+    
+}
+
+
+
+.menu .menu_interno{
+    display: flex;
+    /* border: dashed;
+    border-radius: 5px; */
+    width: 100%;
+    /* gap: 50px; */
+    /* background-color: antiquewhite; */
+    height: 25vh;
+    align-items: center;
+    /* flex-grow: 0; */
+    
+
+}
+
+
+
+.menu .menu_interno .lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    
+    }
+
+.menu .menu_interno .lista a{
+    text-decoration: none;
+    
+}
+
+.menu .menu_interno .lista a:hover{
+ color: burlywood;
+ cursor: grabbing;
+ 
+}
+
+
+.header {
+    /* background-color: burlywood ; */
+    min-height: 150px;
+    background-image: url(../imagens/2023-08-28_14h40_14_gato_novo_correto.png) ;
+    background-repeat: repeat;
+    background-position: left center;
+    background-size: contain;
+    border-bottom: 5px solid burlywood;
+border-radius: 40px 40px 40px 40px;
+    
+    
+}
+.content {
+    display: flex;
+    gap: 10px;
+    line-height: 30px;
+    background-color: white;
+    min-height: 420px;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+    /* font-size: smaller; */
+    /* text-align: center; */
+}
+
+.content .span_content {
+    display: flex;    
+    font-size: smaller;
+    gap: 10px;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    /* background-color: cornflowerblue; */
+    /* background-color: burlywood ; */
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid burlywood;
+border-radius: 40px 40px 40px 40px;
+    
+}
+
+.footer h2{
+   font-weight: 200;
+   color: #bc2e1e;
+
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+    
+    
+}
+
+.footer .span_footer{
+    font-weight: 700;
+    color: #FFFFFF;
+    /* background: #333333; */
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+         
+     
+ }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/logo_dog.png" type="image/png">
+    <title>Clinica Veterinária Dog Style</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contatos.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+            <nav class="menu">
+            <!-- Aqui vai o seu menu -->
+            <div class="logo"></div>
+            <div class="menu_interno">
+            <ul class="lista">
+                <li><a href="./index.html" title="Au au" target="_blank"><i class="fas fa-dog fa-spin" style="color: #511f2b;"></i>Página Principal</a></li>
+                <li><a href="./sobre.html" title="Miau" target="_blank"><i class="fas fa-dog fa-spin" style="color: #511f2b;"></i>Sobre a clínica</a></li>
+                <li><a href="./atendimento.html" title="Pocoto" target="_blank"><i class="fas fa-dog fa-spin" style="color: #511f2b;"></i>Horário de Atendimento</a></li>
+                <li><a href="./contato.html" title="Meu loro" target="_blank"><i class="fas fa-dog fa-spin" style="color: #511f2b;"></i>Contato</a></li>
+            </ul>
+        </div>
+        <div class="video">
+            <iframe width="180" src="https://www.youtube.com/embed/TLCUm558D_4?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </nav>
+
+        <div class="main">
+            <div class="header">
+                <!-- <img src="./imagens/header_index.png" class="imagem" > -->
+            </div>
+    
+            <div class="content">
+                <div class="principal">
+                    <div class="listacontato">
+                <h6>Telefones para Contato:</h6>
+                <ul>
+                    <li><i class="fas fa-dog fa-spin" style="color: #511f2b;"></i>Teledone: 35 3425-3456</li>
+                    <li><i class="fas fa-dog fa-spin" style="color: #511f2b;"></i>Whatsapp: 35 9 9999-6699</li>
+                    <li><i class="fas fa-dog fa-spin" style="color: #511f2b;"></i>Endereço: R. Francisco Evangelista, 315 - Jardim Sao Jose, Ribeirão Preto - SP, 14098-040</li>
+                </ul>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1904206.6621387845!2d-50.201867943749996!3d-21.2257554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9c77d07a505c3%3A0xa326f3aa3b4afca2!2sDog%20Style%20Est%C3%A9tica%20Animal!5e0!3m2!1spt-BR!2sbr!4v1693254935611!5m2!1spt-BR!2sbr" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+                <h6>Entre em contato por email:</h6>
+               <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="row">
+                    <label>Nome</label><input type="text" name="name"><br>
+                    <label>Email</label><input type="email" name="email"><br>
+               </div>
+            </fieldset>
+            <fieldset>
+                <legend>Assunto</legend>
+               <div class="row">
+                    <label>Assunto</label><input type="text" name="text"><br>                    
+                    <textarea name="textarea" cols="30" rows="5">Mensagem</textarea>
+               </div>
+            </fieldset>
+               <div class="row">
+                    <button type="reset" >Limpar</button>
+                    <button type="submit" onclick="msg()">Enviar Fórmulário</button>
+                </div>
+
+                
+                <!-- <span class="span_content"></span> -->
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <h2>Powered by 
+                    <span class="span_footer"><u>theManWhoCantBeMoved</u></span>
+                    <hr>
+                </h2>
+                                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        function msg() {
+          alert("Você clicou no meu botão!");
+        }
+        </script>
+</body>
+</html>
